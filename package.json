@@ -1,10 +1,17 @@
 {
   "name": "react-native-android-ffmpeg-wrapper",
   "version": "0.0.1",
+  "description": "a simple ffmpeg wrapper for react native (android only)",	
   "private": false,
+  "author": "Milad Bagheri",
+	"license": "MIT",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mldb/ffmpegRNWrapper.git"
   },
   "dependencies": {
   },
