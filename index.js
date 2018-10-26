@@ -7,6 +7,11 @@ export function setListeners(
   onStart = val => {},
   onFinish = val => {}
 ) {
+  emitter.removeAllListeners("onFailure");
+  emitter.removeAllListeners("onSuccess");
+  emitter.removeAllListeners("onProgress");
+  emitter.removeAllListeners("onStart");
+  emitter.removeAllListeners("onFinish");
   emitter.addListener("onFailure", val => onFailure(val));
   emitter.addListener("onSuccess", val => onSuccess(val));
   emitter.addListener("onProgress", val => onProgress(val));
