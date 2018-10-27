@@ -9,7 +9,7 @@ a simple ffmpeg wrapper for react native (android only)
  
 # Usage:
    ```javascript
-   import Ffmpeg from 'react-native-android-ffmpeg-wrapper'
+   import * as Ffmpeg from 'react-native-android-ffmpeg-wrapper'
    //for set listeners:
    Ffmpeg.setListeners(this.onFailure,this.onSuccess,onProgress,onStart,onFinish)
    //for run commands:
